@@ -57,7 +57,7 @@
  * version.  Example: "ACME Postgres/1.2".  Note that the string will appear
  * in a user-facing error message if an ABI mismatch is detected.
  */
-#define FMGR_ABI_EXTRA		"PostgreSQL"
+#define FMGR_ABI_EXTRA		ZWSQL_PRODUCT_NAME
 
 /*
  * Maximum number of columns in an index.  There is little point in making
@@ -198,7 +198,7 @@
 /*
  * This is the default event source for Windows event log.
  */
-#define DEFAULT_EVENT_SOURCE  "PostgreSQL"
+#define DEFAULT_EVENT_SOURCE	ZWSQL_PRODUCT_NAME
 
 /*
  * Assumed cache line size.  This doesn't affect correctness, but can be used

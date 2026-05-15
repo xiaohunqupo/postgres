@@ -142,7 +142,9 @@ extern int	find_other_exec(const char *argv0, const char *target,
 extern char *pipe_read_line(char *cmd);
 
 /* Doesn't belong here, but this is used with find_other_exec(), so... */
-#define PG_BACKEND_VERSIONSTR "postgres (PostgreSQL) " PG_VERSION "\n"
+#ifndef PG_BACKEND_VERSIONSTR
+#define PG_BACKEND_VERSIONSTR	ZWSQL_BACKEND_VERSIONSTR
+#endif
 
 #ifdef EXEC_BACKEND
 /* Disable ASLR before exec, for developer builds only (in exec.c) */

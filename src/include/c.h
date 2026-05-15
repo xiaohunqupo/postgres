@@ -55,6 +55,7 @@
  * defining _FILE_OFFSET_BITS).
  */
 #include "pg_config.h"
+#include "zwsql_compat.h"		/* must be after pg_config.h */
 #include "pg_config_manual.h"	/* must be after pg_config.h */
 #include "pg_config_os.h"		/* config from include/port/PORTNAME.h */
 
