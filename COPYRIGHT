@@ -1,3 +1,18 @@
+ZWSQL Database Management System
+(derived from PostgreSQL)
+
+Additional copyright for ZWSQL-specific modifications and documentation
+in this distribution:
+
+    Portions Copyright (c) 2026, ZWSQL Project Contributors
+
+ZWSQL is based on PostgreSQL. The PostgreSQL copyright and license below
+continue to apply to the underlying software and to portions of this
+distribution that retain PostgreSQL authorship. See ZWSQL_DERIVATION.md
+for a full statement of derivation, scope, and licensing.
+
+-------------------------------------------------------------------------------
+
 PostgreSQL Database Management System
 (also known as Postgres, formerly known as Postgres95)
 
